@@ -194,12 +194,12 @@
           </div>
         </div>
        
-        <div class="">
+       ,
           <div class="container">
    
-            <div class="row row-cols-6">
+            <div class="row">
                 @foreach ($gallery as $gal)
-                <div class="col">  
+                <div class="col-sm-2">  
               
                    <a href="#img_{{$gal->id}}"><img style="max-width:100%;"class="gallery-item"src="{{asset('uploads/gallery_image/'.$gal->imagefile)}}" ></a>
                       {{-- <li><a href="#img_2"><img src="assets/images/1.jpg"></a></li> --}}
@@ -224,36 +224,18 @@
             <h2>Let’s Keep In Touch</h2>
           </div>
         </div>
-        <div class="col-md-6">
-        
-        <!-- Do you need a working HTML contact-form script?
-                	
-                    Please visit https://templatemo.com/contact page -->
-                    
-          <form id="contact" action="" method="post" >
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
-                  </fieldset>
-                </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
+        <div class="col-md-6 text-light">
+         <h4>Contact Us at :<br> <span class="text-success"> 9845059163 || 01-4390315 ||9841719551</span></h4>
+        <br>
+         <h4>Mail us :<br>
+          <span class="text-primary">littlestarkidsworld2064@gmail.com</span>
+        </h4>
+         <br>
+         <h4>Located at :
+          <br> <span class="text-danger">Balaju-16, Ktm, Nepal</span>
+         </h4>
+       
+  
         </div>
         <div class="col-md-6" id="section2">
           <div id="map">
